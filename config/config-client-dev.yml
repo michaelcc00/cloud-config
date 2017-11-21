@@ -1,11 +1,7 @@
-spring:
-  redis:
-    host: 192.168.5.157
-    port: 6379
-    password: zmkj
-    timeout: 0
-    pool:
-      max-active: 8
-      max-wait: -1
-      max-idle: 8
-      min-idle: 0
+redis:
+  host: 192.168.5.26
+  port: 6379
+  password: zmkj
+  timeout: 0
+  maxWait: -1
+  maxIdle: 8
