@@ -5,3 +5,4 @@ redis:
   timeout: 0
   maxWait: -1
   maxIdle: 8
+foo: hello
